@@ -4,10 +4,8 @@ import Typed from 'react-typed';
 
 const Hero = () => {
     return (  
-        <div onClick={()=>{
-            console.log('component clicked\n');
-        }} className='text-white'>
-            <div className='max-w-[800px] mt-[96px] w-full h-screen mx-auto text-center flex flex-col'>
+        <div className='text-white'>
+            <div className='max-w-[800px] mt-[96px] w-full mx-auto  h-[512px] py-12 text-center flex flex-col'>
                 
                 <p className='uppercase text-[#00df9a] font-bold p-2'>growing with data analytics</p>
                 <h1 className='font-bold md:text-7xl sm:text-6xl text-4xl md:py-6'>Grow with data.</h1>
